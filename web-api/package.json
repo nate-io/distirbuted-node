@@ -5,6 +5,7 @@
   "main": "consumer-http-basic.js",
   "scripts": {
     "start": "nodemon consumer-http-basic.js",
+    "start-gql": "nodemon consumer-graphql.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
