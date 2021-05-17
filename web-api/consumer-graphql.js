@@ -19,6 +19,11 @@ server.get('/', async () => {
       variables: { id: 42 }
     })
   })
+
+  return {
+    consumer_pid: process.pid,
+    producerData: await req.json()
+  }
 })
 
 server.listen(PORT, HOST, () => {
