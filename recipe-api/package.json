@@ -4,6 +4,7 @@
   "main": "producer-http-basic.js",
   "scripts": {
     "start": "nodemon producer-http-basic.js",
+    "start-gql": "nodemon producer-graphql.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
