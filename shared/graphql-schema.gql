@@ -1,0 +1,15 @@
+type Query {
+  recipe(id: ID): Recipe
+  pid: Int
+}
+type Recipe {
+  int: ID!
+  name: String!
+  steps: String
+  ingredients: [Ingredients]!
+}
+type Ingredient {
+  id: ID!
+  name: String!
+  quantity: String
+}
