@@ -8,6 +8,7 @@ const complexQuery = `query kitchenSink ($id:ID) {
     consumer_pid: process.pid,
     producer_data: await await req.json()
   }
+  pid
 }`
 
 server.get('/', async () => {

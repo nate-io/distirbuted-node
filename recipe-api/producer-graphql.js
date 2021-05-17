@@ -33,7 +33,7 @@ const resolvers = {
 }
 
 server
-  .register(graphql, { schema, resolvers, grpahiql: true })
+  .register(graphql, { schema, resolvers, graphiql: true })
   .listen(PORT, HOST, () => {
     console.log(`Producer running at http://${HOST}:${PORT}`)
   })
